@@ -50,7 +50,19 @@ def sum_array(array)
   
 end
 
-
+def add_s(array)
+  i = 0
+  new_arr = []
+  while i < array.length
+    if i == 1
+      new_arr << array[i]
+    else
+      new_arr << array[i] + "s"
+    end
+    i += 1
+  end
+  new_arr
+end
 
 
 
